@@ -1,0 +1,74 @@
+<resources>
+
+    <string name="app_name" translatable="false">MaskApp</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data" translatable="false">Data:</string>
+    <string name="label_device_address" translatable="false">Device address:</string>
+    <string name="label_state" translatable="false">State:</string>
+    <string name="no_data" translatable="false">No data</string>
+    <string name="connected" translatable="false">Connected</string>
+    <string name="disconnected" translatable="false">Disconnected</string>
+    <string name="title_devices">Device scanning</string>
+    <string name="error_bluetooth_not_supported" translatable="false">Bluetooth not supported.</string>
+    <string name="unknown_device" translatable="false">Unknown device</string>
+    <string name="unknown_characteristic" translatable="false">Unknown characteristic</string>
+    <string name="unknown_service" translatable="false">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect" translatable="false">Connect</string>
+    <string name="menu_disconnect" translatable="false">Disconnect</string>
+    <string name="menu_scan" translatable="false">Scan</string>
+    <string name="menu_stop" translatable="false">Stop</string>
+    <string name="action_settings" translatable="false">Action settings</string>
+
+    <!-- Main Activity Strings -->
+    <string name="mainPanel">Main Panel</string>
+    <string name="name">Name:</string>
+    <string name="battery">Battery</string>
+    <string name="runtime">Runtime</string>
+    <string name="mode">Device operations mode</string>
+
+    <!-- Permissions -->
+    <string name="permGranded">Permissions granted</string>
+    <string name="permNotGranded">Permissions not granted</string>
+
+    <!-- Scan button status Strings -->
+    <string name="scan">Scan Device</string>
+    <string name="scanning">Scanning</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnecting">Disconnecting</string>
+
+    <!-- Modes -->
+    <string name="turnOn">Turned ON</string>
+    <string name="interval1">Interval - 1min</string>
+    <string name="interval2">Interval - 2min</string>
+    <string name="interval5">Interval - 5min</string>
+    <string name="turnOff">Turned OFF</string>
+
+    <!-- Const -->
+    <string name="maskImage" translatable="false">Mask</string>
+    <string name="emptyValue" translatable="false">-</string>
+    <string name="minutes" translatable="false"> min </string>
+    <string name="seconds" translatable="false"> s</string>
+    <string name="percentage" translatable="false"> %</string>
+
+    <!-- Intro Screens -->
+    <string name="introTitle1">Welcome user!</string>
+    <string name="text1_1">We are very happy that you are taking care of your safety together with our solution.</string>
+    <string name="text2_1">Before you, a brief introduction to our application.</string>
+
+
+    <string name="introTitle2">Features:</string>
+    <string name="text1_2">The app allows you to control mask modes, check battery status and device runtime.</string>
+    <string name="text2_2">Set it up to your preference.</string>
+
+    <string name="introTitle3">Permissions:</string>
+    <string name="text1_3">To connect to the mask, Bluetooth and Location permissions must be granted.</string>
+    <string name="text2_3">Remember, without this you will not be able to connect to the device.</string>
+
+    <string name="introTitle4">That is it!</string>
+    <string name="text1_4">You already know everything you should know about our application. If you have any doubts, take a look at the settings panel.</string>
+    <string name="text2_4">Enjoy our app!</string>
+
+</resources>

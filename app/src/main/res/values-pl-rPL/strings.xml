@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ble_not_supported">BLE nie jest wspierany</string>
+    <string name="mainPanel">Panel Główny</string>
+    <string name="battery">Bateria</string>
+    <string name="runtime">Czas pracy</string>
+    <string name="mode">Tryb pracy urządzenia</string>
+    <string name="scan">Skanuj</string>
+    <string name="scanning">Skanowanie</string>
+    <string name="connecting">Łączenie</string>
+    <string name="disconnect">Rozłącz</string>
+    <string name="disconnecting">Rozłączanie</string>
+    <string name="name">Nazwa:</string>
+    <string name="turnOn">Właczone</string>
+    <string name="turnOff">Wyłączone</string>
+    <string name="introTitle1">Witaj użytkowniku!</string>
+    <string name="introTitle2">Funkcje:</string>
+    <string name="text1_1">Bardzo się cieszymy, że dbasz o swoje bezpieczeństwo razem z naszym rozwiązaniem.</string>
+    <string name="text1_2">Aplikacja pozwala na sterowanie trybami maski, sprawdzanie stanu baterii i czasu pracy urządzenia.</string>
+    <string name="text2_1">Przed tobą krótkie wprowadzenie do naszej aplikacji.</string>
+    <string name="text2_2">Ustaw ją wedle swoich preferencji.</string>
+    <string name="introTitle3">Uprawnienia:</string>
+    <string name="text1_3">Aby połączyć się z maską, należy nadać uprawnienia do Bluetooth i Lokalizacji.</string>
+    <string name="text2_3">Pamiętaj, bez tego nie będziesz w stanie połączyć się z urządzeniem.</string>
+    <string name="text1_4">Wiesz już wszystko, co powinieneś wiedzieć o naszej aplikacji. Jeśli masz jakieś wątpliwości, zajrzyj do panelu ustawień.</string>
+    <string name="introTitle4">To wszystko!</string>
+    <string name="text2_4">Miłego użytkowania!</string>
+    <string name="interval1">Interwał - 1min</string>
+    <string name="interval2">Interwał - 2min</string>
+    <string name="interval5">Interwał - 5min</string>
+    <string name="title_devices" translatable="false">Skanowanie urządzeń</string>
+    <string name="permNotGranded">Uprawnienia nieprzyznane</string>
+    <string name="permGranded">Uprawnienia przyznane</string>
+</resources>

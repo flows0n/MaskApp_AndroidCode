@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="intro_next_active">#80abeb</color>
+    <color name="intro_next_hover">#5977A4</color>
+    <color name="intro_done_active">#1AFF79</color>
+    <color name="intro_done_hover">#12B254</color>
+
+    <color name="blue_l">#3377df</color>
+    <color name="blue_m">#0056D7</color>
+    <color name="blue_d">#003c96</color>
+    <color name="sec_m">#f50057</color>
+    <color name="sec_d">#ab003c</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="disable">#CCCCCC</color>
+
+
+    <!-- Battery Info Colors -->
+    <color name="b100">#49a50d</color>
+    <color name="b80">#97d90d</color>
+    <color name="b60">#fec90d</color>
+    <color name="b40">#fe990d</color>
+    <color name="b20">#f7600d</color>
+    <color name="b10">#fb080d</color>
+
+</resources>

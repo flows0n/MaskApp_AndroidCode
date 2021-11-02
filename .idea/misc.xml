@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/angle.xml" value="0.34375" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/battery.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/button.xml" value="0.28425925925925927" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/button_active.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/button_hover.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/circle_default.xml" value="0.1" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/circle_selected.xml" value="0.1" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/circle_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/dialog_background.xml" value="0.34375" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/intro_button_done.xml" value="0.3117948717948718" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/intro_button_done_active.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/intro_button_done_hover.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/intro_button_next.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/intro_button_next_active.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/intro_button_next_hover.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/intro_next_button.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/mask.xml" value="0.225" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/drawable/time.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/font/manrope_font.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/layout/activity_intro.xml" value="0.22" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/layout/activity_tab.xml" value="0.25" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/layout/dialog_screen.xml" value="0.26992753623188404" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/layout/dialog_search_screen.xml" value="0.14" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/layout/intro_screen.xml" value="0.33" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/layout/listitem_device.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/layout/scanning_layout.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/layout/slide_tab_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Bartek/AndroidStudioProjects/MaskApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12239583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
