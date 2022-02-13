@@ -141,7 +141,6 @@ public abstract  class BlunoLibrary  extends Activity{
 
 
         LayoutInflater inflater = this.getLayoutInflater();
-        View dialogView = inflater.inflate(R.layout.scanning_layout, null);
 
         // Initializes list view adapter.
         mLeDeviceListAdapter = new LeDeviceListAdapter();

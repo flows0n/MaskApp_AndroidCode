@@ -95,8 +95,10 @@ public class MainActivity  extends BlunoLibrary {
         });
 
         settingsButton.setOnClickListener(v -> {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                startActivity(new Intent(getApplicationContext(), InfoActivity.class));
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
+
         });
 
         modes.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -140,6 +142,10 @@ public class MainActivity  extends BlunoLibrary {
     @Override
     protected void onPause() {
         super.onPause();
+        runningThread = false;
+        enableElements(false);
+        batteryValue.refreshDrawableState();
+        button.setText(getString(R.string.scanning));
         onPauseProcess();                                                        //onPause Process by BlunoLibrary
     }
 
@@ -168,14 +174,14 @@ public class MainActivity  extends BlunoLibrary {
                 break;
             case isToScan:
                 button.setText(getString(R.string.scan));
+                runningThread = false;
+                enableElements(false);
+                batteryValue.refreshDrawableState();
                 break;
             case isScanning:
                 button.setText(getString(R.string.scanning));
                 break;
             case isDisconnecting:
-                runningThread = false;
-                enableElements(false);
-                batteryValue.refreshDrawableState();
                 button.setText(getString(R.string.disconnecting));
                 break;
             default:
@@ -188,7 +194,6 @@ public class MainActivity  extends BlunoLibrary {
         percentSign.setTextColor(getResources().getColor(R.color.textview_colors));
         if(modes.getVisibility() == View.VISIBLE){
             modeCard.callOnClick();
-
         }
         maskImage.setEnabled(status);
         angle.setImageResource(R.drawable.angle);
@@ -242,7 +247,7 @@ public class MainActivity  extends BlunoLibrary {
                         }
                     }
                 }.start();
-
+                modeCheck(parts[2]);
                 break;
             case 'B':
                 data = receivedData.substring(1);
@@ -250,7 +255,6 @@ public class MainActivity  extends BlunoLibrary {
                 batteryCheck(battery);
                 break;
         }
-
     }
 
 
@@ -276,4 +280,25 @@ public class MainActivity  extends BlunoLibrary {
 
         batteryValue.setText(""+percentage);
     }
+
+    private void modeCheck(String mode){
+        switch(mode){
+            case "A":
+                modes.check(R.id.radioButtonOn);
+            break;
+            case "B":
+                modes.check(R.id.radioButtonInterval1);
+                break;
+            case "C":
+                modes.check(R.id.radioButtonInterval2);
+                break;
+            case "D":
+                modes.check(R.id.radioButtonInterval5);
+                break;
+            case "E":
+                modes.check(R.id.radioButtonOff);
+                break;
+        }
+    }
+
 }

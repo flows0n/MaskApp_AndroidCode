@@ -19,10 +19,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaskApp">
         <activity
+            android:name=".InfoActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".IntroActivity"
             android:exported="true"

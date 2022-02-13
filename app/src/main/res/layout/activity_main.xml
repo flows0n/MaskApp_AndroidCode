@@ -38,7 +38,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:background="@drawable/bright"/>
+            android:background="@drawable/info"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -312,9 +312,8 @@
 
             <RadioGroup
                 android:id="@+id/modes"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
@@ -328,7 +327,14 @@
                     android:textColor="@color/textview_colors"
                     android:textColorHighlight="@color/blue_d"
                     android:textColorLink="@color/blue_d"
-                    android:textSize="16sp" />
+                    android:textSize="18sp" />
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="6dp"
+                    android:background="?android:attr/listDivider" />
 
                 <RadioButton
                     android:id="@+id/radioButtonInterval1"
@@ -337,7 +343,8 @@
                     android:buttonTint="@color/blue_m"
                     android:text="@string/interval1"
                     android:textColor="@color/textview_colors"
-                    android:textSize="16sp" />
+                    android:textSize="18sp" />
+
                 <RadioButton
                     android:id="@+id/radioButtonInterval2"
                     android:layout_width="wrap_content"
@@ -345,7 +352,8 @@
                     android:buttonTint="@color/blue_m"
                     android:text="@string/interval2"
                     android:textColor="@color/textview_colors"
-                    android:textSize="16sp" />
+                    android:textSize="18sp" />
+
                 <RadioButton
                     android:id="@+id/radioButtonInterval5"
                     android:layout_width="wrap_content"
@@ -353,7 +361,14 @@
                     android:buttonTint="@color/blue_m"
                     android:text="@string/interval5"
                     android:textColor="@color/textview_colors"
-                    android:textSize="16sp" />
+                    android:textSize="18sp" />
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="6dp"
+                    android:background="?android:attr/listDivider" />
 
                 <RadioButton
                     android:id="@+id/radioButtonOff"
@@ -362,7 +377,7 @@
                     android:buttonTint="@color/blue_m"
                     android:text="@string/turnOff"
                     android:textColor="@color/textview_colors"
-                    android:textSize="16sp" />
+                    android:textSize="18sp" />
 
             </RadioGroup>
 

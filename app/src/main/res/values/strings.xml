@@ -28,6 +28,20 @@
     <string name="runtime">Runtime</string>
     <string name="mode">Device operations mode</string>
 
+    <!-- Info Activity Strings -->
+    <string name="infoPanel">Information</string>
+    <string name="modeTitle">Operating modes</string>
+    <string name="aboutTitle">About</string>
+
+    <string name="modeOnDesc">Setting the operation mode to \"Steady light\" causes the UV-C LEDs to shine continuously.</string>
+    <string name="modeIntervalDesc">In \"Interval\" mode, the UV-C LEDs are allowed to run for a specified period of time. The LEDs light up for a period of time and then are turned off.After the next time interval they are automatically switched on.</string>
+    <string name="modeOffDesc">Setting the operating mode to \"light off\" causes the UV-C LEDs to be off.</string>
+    <string name="aboutDesc">Application realized as a part of engineering thesis.</string>
+    <string name="authorDesc">Author: Bartosz Maliszewski</string>
+
+
+
+
     <!-- Permissions -->
     <string name="permGranded">Permissions granted</string>
     <string name="permNotGranded">Permissions not granted</string>
@@ -40,11 +54,11 @@
     <string name="disconnecting">Disconnecting</string>
 
     <!-- Modes -->
-    <string name="turnOn">Turned ON</string>
+    <string name="turnOn">Steady light</string>
     <string name="interval1">Interval - 1min</string>
     <string name="interval2">Interval - 2min</string>
     <string name="interval5">Interval - 5min</string>
-    <string name="turnOff">Turned OFF</string>
+    <string name="turnOff">Lights off</string>
 
     <!-- Const -->
     <string name="maskImage" translatable="false">Mask</string>
@@ -58,7 +72,6 @@
     <string name="text1_1">We are very happy that you are taking care of your safety together with our solution.</string>
     <string name="text2_1">Before you, a brief introduction to our application.</string>
 
-
     <string name="introTitle2">Features:</string>
     <string name="text1_2">The app allows you to control mask modes, check battery status and device runtime.</string>
     <string name="text2_2">Set it up to your preference.</string>
@@ -68,7 +81,7 @@
     <string name="text2_3">Remember, without this you will not be able to connect to the device.</string>
 
     <string name="introTitle4">That is it!</string>
-    <string name="text1_4">You already know everything you should know about our application. If you have any doubts, take a look at the settings panel.</string>
+    <string name="text1_4">You already know everything you should know about our application. If you have any doubts, take a look at the information panel.</string>
     <string name="text2_4">Enjoy our app!</string>
-
+    <string name="github">Repository with project</string>
 </resources>

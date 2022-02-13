@@ -11,8 +11,7 @@
     <string name="disconnect">Rozłącz</string>
     <string name="disconnecting">Rozłączanie</string>
     <string name="name">Nazwa:</string>
-    <string name="turnOn">Właczone</string>
-    <string name="turnOff">Wyłączone</string>
+    <string name="turnOn">Światło stałe</string>
     <string name="introTitle1">Witaj użytkowniku!</string>
     <string name="introTitle2">Funkcje:</string>
     <string name="text1_1">Bardzo się cieszymy, że dbasz o swoje bezpieczeństwo razem z naszym rozwiązaniem.</string>
@@ -22,7 +21,7 @@
     <string name="introTitle3">Uprawnienia:</string>
     <string name="text1_3">Aby połączyć się z maską, należy nadać uprawnienia do Bluetooth i Lokalizacji.</string>
     <string name="text2_3">Pamiętaj, bez tego nie będziesz w stanie połączyć się z urządzeniem.</string>
-    <string name="text1_4">Wiesz już wszystko, co powinieneś wiedzieć o naszej aplikacji. Jeśli masz jakieś wątpliwości, zajrzyj do panelu ustawień.</string>
+    <string name="text1_4">Wiesz już wszystko, co powinieneś wiedzieć o naszej aplikacji. Jeśli masz jakieś wątpliwości, zajrzyj do panelu informacji.</string>
     <string name="introTitle4">To wszystko!</string>
     <string name="text2_4">Miłego użytkowania!</string>
     <string name="interval1">Interwał - 1min</string>
@@ -31,4 +30,14 @@
     <string name="title_devices" translatable="false">Skanowanie urządzeń</string>
     <string name="permNotGranded">Uprawnienia nieprzyznane</string>
     <string name="permGranded">Uprawnienia przyznane</string>
+    <string name="infoPanel">Informacje</string>
+    <string name="modeTitle">Tryby pracy</string>
+    <string name="aboutTitle">O aplikacji</string>
+    <string name="turnOff">Światło wyłaczone</string>
+    <string name="modeOnDesc">Ustawienie trybu pracy na \"Światło stałe\" powoduje, że diody LED UV-C świecą światłem ciągłym.</string>
+    <string name="modeOffDesc">Ustawienie trybu pracy na \"Światło wyłączone\" powoduje, że diody LED UV-C są wyłączone.</string>
+    <string name="modeIntervalDesc">W trybie \"Interwał\" diody LED UV-C mogą pracować przez określony czas. Diody świecą przez okres czasu po czym są wyłączane. Po upływie kolejnego interwału czasowego są automatycznie włączane.</string>
+    <string name="aboutDesc">Aplikacja zrealizowana jako część pracy inżynierskiej.</string>
+    <string name="authorDesc">Autor: Bartosz Maliszewski</string>
+    <string name="github">Repozytorium z projektem</string>
 </resources>
